@@ -1,0 +1,6 @@
+# Example navigation.yml
+- title: "Home"
+  url: /
+- title: "About"
+  url: /about
+# Add more links as needed
