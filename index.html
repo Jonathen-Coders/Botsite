@@ -45,10 +45,11 @@ layout: home
         }
 
         .announcement {
-            background-color: #ff0000;
+            background-color: #1b1a1a;
             color: #ffffff;
             padding: 10px;
             text-align: center;
+
 
         }
     </style>
@@ -62,12 +63,14 @@ layout: home
     </header>
     <section class="announcement">
         {% include_relative announcement.md%}
+        <button id="dismiss-btn">Dismiss</button>
     </section>
-    <nav>
-            {% for link in site.data.navigation %}
-              <a href="{{ link.url }}">{{ link.text }}</a>
-            {% endfor %}
-    </nav> 
+
+    <script>
+        document.getElementById("dismiss-btn").addEventListener("click", function() {
+            document.querySelector(".announcement").style.display = "none";
+        });
+    </script>
     <main>
         <section id="about">
             <h2>About My Bot</h2>
