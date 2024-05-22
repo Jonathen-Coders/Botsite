@@ -4,21 +4,102 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Discord Bot Portal</title>
-    <!-- Your existing styles here -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+        }
+
+        header h1 {
+            margin: 0;
+            padding: 0 20px;
+        }
+
+        
+
+        main {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .announcement {
+            background-color: #ffcc00;
+            color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+
+        /* Add this CSS for the toggle button */
+        .toggle-button {
+            display: none;
+        }
+
+        .toggle-button:checked ~ nav {
+            display: block;
+        }
+
+        .toggle-button-label {
+            display: block;
+            width: 30px;
+            height: 30px;
+            background-color: #333;
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            cursor: pointer;
+        }
+
+        .toggle-button-label::before,
+        .toggle-button-label::after {
+            content: "";
+            display: block;
+            width: 20px;
+            height: 2px;
+            background-color: #fff;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .toggle-button-label::before {
+            transform: translate(-50%, -50%) rotate(45deg);
+        }
+
+        .toggle-button-label::after {
+            transform: translate(-50%, -50%) rotate(-45deg);
+        }
+    </style>
+</head>
+</head>
 </head>
 <body>
     <header>
         <h1>Welcome to My Bot Portal</h1>
     </header>
-
-    <!-- Include the announcement content -->
     <section class="announcement">
         {% include announcement.md %}
     </section>
-
     <nav>
         <ul>
-            {% for link in site._data.navigation %}
+            {% for link in site.data.navigation %}
             <li><a href="{{ link.url }}">{{ link.text }}</a></li>
         {% endfor %}
         </ul>
@@ -27,14 +108,15 @@
     <main>
         <section id="about">
             <h2>About My Bot</h2>
-            <p>My Bot runs on Discord.js. We have multiple uses for the bot, including:</p>
+            <p>My Bot runs on Discord.js We have Multi uses for the bot.</p>
+            <p>Some of the uses include:</p>
             <ul>
                 <li>Moderation</li>
-                <li>Economy (work in progress)</li>
-                <li>Miscellaneous</li>
-                <li>Admin (work in progress)</li>
+                <li>Economy(wip)</li>
+                <li>Misc</li>
+                <li>Admin(wip)</li>
             </ul>
-            <!-- Add more uses as needed -->
+                <!-- Add more uses as needed -->
         </section>
 
         <section id="features">
