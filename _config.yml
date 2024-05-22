@@ -1,3 +1,5 @@
 theme: jekyll-theme-modernist
 title: The C.B's homepage
 description: Bookmark this to keep an eye on my bot's updates!
+markdown: kramdown
+includes_dir: ./_includes

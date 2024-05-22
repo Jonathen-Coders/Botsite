@@ -1,4 +1,7 @@
+
 # Example navigation.yml
+- text: "Home"
+  url: "/index.html"
 - text: "About"
   url: "/about"
 - text: "Features"
