@@ -33,9 +33,14 @@
         </ul>
       </header>
       <section>
-
+        <body>
+        <nav>
+          {% for item in site._data.navigation %}
+            <a href="{{ item.url }}">{{ item.text }}</a>
+          {% endfor %}
+        </nav>
       {{ content }}
-
+    </body>
       </section>
     </div>
     <footer>
