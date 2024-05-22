@@ -1,11 +1,9 @@
 ---
-layout: announcement
-# Important Announcement
 ---
+<h2>Important Announcement</h2>
+<h>Hello, fellow bot enthusiasts! 🤖</h>
 
-Hello, fellow bot enthusiasts! 🤖
-
-We're excited to announce some upcoming changes and improvements to our Discord bot. Here's what you can expect:
+<p>We're excited to announce some upcoming changes and improvements to our Discord bot. Here's what you can expect:
 
 1. **New Features:**
    - We're working on adding exciting new features, including an economy system, custom commands, and more.
@@ -21,4 +19,4 @@ We're excited to announce some upcoming changes and improvements to our Discord 
 
 Remember to bookmark this page to stay informed about our progress. Thank you for being part of our bot's journey! 🎉
 
-— The C.B Discord Bot Team
+— The C.B Discord Bot Team</p>
