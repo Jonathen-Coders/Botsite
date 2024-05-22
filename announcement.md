@@ -1,5 +1,5 @@
 ---
-
+layout: announcement
 # Important Announcement
 ---
 
@@ -19,6 +19,6 @@ We're excited to announce some upcoming changes and improvements to our Discord 
    - We value your feedback! If you have suggestions or ideas, feel free to share them with us.
    - Join our community discussions and help shape the future of our bot.
 
-Remember to bookmark this page to stay informed about our progress. Thank you for being part of our bot journey! 🎉
+Remember to bookmark this page to stay informed about our progress. Thank you for being part of our bot's journey! 🎉
 
 — The C.B Discord Bot Team
