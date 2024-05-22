@@ -26,7 +26,7 @@
         nav {
             background-color: #ddd;
             padding: 10px 0;
-            display: none; /* Add this line to hide the nav bar */
+            /* display: none; */ /* Remove this line to show the nav bar */
         }
 
         nav ul {
@@ -57,7 +57,49 @@
             padding: 10px;
             text-align: center;
         }
+
+        /* Add this CSS for the toggle button */
+        .toggle-button {
+            display: none;
+        }
+
+        .toggle-button:checked ~ nav {
+            display: block;
+        }
+
+        .toggle-button-label {
+            display: block;
+            width: 30px;
+            height: 30px;
+            background-color: #333;
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            cursor: pointer;
+        }
+
+        .toggle-button-label::before,
+        .toggle-button-label::after {
+            content: "";
+            display: block;
+            width: 20px;
+            height: 2px;
+            background-color: #fff;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .toggle-button-label::before {
+            transform: translate(-50%, -50%) rotate(45deg);
+        }
+
+        .toggle-button-label::after {
+            transform: translate(-50%, -50%) rotate(-45deg);
+        }
     </style>
+</head>
 </head>
 </head>
 <body>
