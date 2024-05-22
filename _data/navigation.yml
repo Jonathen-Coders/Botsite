@@ -1,6 +1,7 @@
 # Example navigation.yml
-- title: "Home"
-  url: /
-- title: "About"
-  url: /about
-# Add more links as needed
+- text: "About"
+  url: "/about"
+- text: "Features"
+  url: "/features"
+- text: "Invite The Bot"
+  url: "https://discord.com/oauth2/authorize?client_id=1223029059034943489"
