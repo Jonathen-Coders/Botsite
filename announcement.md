@@ -6,6 +6,6 @@
 <p>We're excited to announce some upcoming changes and improvements to our Discord bot. Here's what you can expect:
 
 <b>New Improvements</b>
-We are actively improving the bot and eventually we want to make more bots using the same network as C.B.
+We have now made a Commands and feature page to uour site got check them out in our nav bar!
 
 — The C.B Discord Bot Team</p>
