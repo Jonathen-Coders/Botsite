@@ -1,5 +1,3 @@
----
----
 <h2>Important Announcement</h2>
 <h>Hello, fellow bot enthusiasts! 🤖</h>
 <p>
@@ -7,6 +5,6 @@
 remember that we can change anything on the site without notice so always keep an eye out for our updates!
 — 😊The C.B Discord Bot Team</p>
 <script>
-    var endDateString = "2024-06-1"; // Set your end date
+    var endDateString = "2024-06-2"; // Set your end date
 </script>
 {% include_relative announcement.js %}
