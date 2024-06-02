@@ -1,6 +1,7 @@
 // announcement.js
 
-// Define the end date
+// Define the end date\
+console.log("End Date String: " + endDateString);
 var endDate = new Date(endDateString + "T23:59:59"); // endDateString will be set from announcement.md
 
 // Get the current date
