@@ -10,4 +10,4 @@ remember that we can change anything on the site without notice so always keep a
 <script>
     var endDateString = "2024-06-2"; // Set your end date
 </script>
-{% include_relative announcement.js %}
+<script src="/announcement.js"></script>
