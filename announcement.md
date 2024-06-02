@@ -1,7 +1,3 @@
----
-
----
-
 <h2>Important Announcement</h2>
 <h>Hello, fellow bot enthusiasts! 🤖</h>
 <p>
