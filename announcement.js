@@ -5,6 +5,9 @@ var endDate = new Date(endDateString); // endDateString will be set from announc
 
 // Get the current date
 var currentDate = new Date();
+// Log the dates to the console
+console.log("End Date: " + endDate);
+console.log("Current Date: " + currentDate);
 
 // Compare the current date with the end date
 if (currentDate > endDate) {
