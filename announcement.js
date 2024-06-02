@@ -12,6 +12,11 @@ if (currentDate > endDate) {
     document.querySelector(".announcement").style.display = "none";
 }
 
-document.getElementById("dismiss-btn").addEventListener("click", function() {
-    document.querySelector(".announcement").style.display = "none";
+// Wait until the HTML document has been fully loaded and parsed
+document.addEventListener("DOMContentLoaded", function() {
+    // Add an event listener to the element with the ID 'dismiss-btn'
+    document.getElementById("dismiss-btn").addEventListener("click", function() {
+        // When 'dismiss-btn' is clicked, hide the element with the class 'announcement'
+        document.querySelector(".announcement").style.display = "none";
+    });
 });
