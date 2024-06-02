@@ -6,6 +6,6 @@ remember that we can change anything on the site without notice so always keep a
 — 😊The C.B Discord Bot Team</p>
 <button id="dismiss-btn">Dismiss</button>
 <script>
-    var endDateString = "2024-06-2"; // Set your end date
+    var endDateString = "2024-06-1"; // Set your end date
 </script>
 <script src="/announcement.js"></script>
