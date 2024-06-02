@@ -67,23 +67,7 @@
         {% include_relative announcement.md%}
         <button id="dismiss-btn">Dismiss</button>
     </section>
-    <script>
-        // Define the end date
-        var endDate = new Date("2024-06-2"); // Set your end date
     
-        // Get the current date
-        var currentDate = new Date();
-    
-        // Compare the current date with the end date
-        if (currentDate > endDate) {
-            // If the current date is past the end date, hide the announcement
-            document.querySelector(".announcement").style.display = "none";
-        }
-    
-        document.getElementById("dismiss-btn").addEventListener("click", function() {
-            document.querySelector(".announcement").style.display = "none";
-        });
-    </script>
     <nav>
             {% for link in site.data.navigation %}
               <a href="{{ link.url }}">{{ link.text }}</a>
