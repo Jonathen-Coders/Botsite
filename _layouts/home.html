@@ -65,14 +65,8 @@
     </header>
     <section class="announcement">
         {% include_relative announcement.md%}
-        <button id="dismiss-btn">Dismiss</button>
     </section>
-
-    <script>
-        document.getElementById("dismiss-btn").addEventListener("click", function() {
-            document.querySelector(".announcement").style.display = "none";
-        });
-    </script>
+    
     <nav>
             {% for link in site.data.navigation %}
               <a href="{{ link.url }}">{{ link.text }}</a>
