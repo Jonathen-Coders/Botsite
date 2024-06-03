@@ -79,6 +79,9 @@
             {% endfor %}
     </nav> 
     <main>
+        <h1>OAuth2 Authorization</h1>
+        <p>Click the button below to authorize with Discord:</p>
+        <button onclick="window.location.href='https://discord.com/oauth2/authorize?client_id=1223029059034943489&permissions=8&response_type=code&redirect_uri=https%3A%2F%2Fbot-site.joncodingreviews.com%2F&scope=identify+guilds+bot+applications.commands+applications.commands.permissions.update+dm_channels.messages.read+dm_channels.read+activities.write+presences.write+dm_channels.messages.write'">Authorize with Discord</button>
         {{ content }}
     </main>
 
