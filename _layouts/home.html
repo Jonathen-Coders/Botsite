@@ -28,7 +28,15 @@
             padding: 0 20px;
         }
 
-        
+          /* Hide the menu by default */
+          .menu {
+            display: none;
+        }
+
+        /* Show the menu when the checkbox is checked */
+        #menu-toggle:checked ~ .menu {
+            display: block;
+        }
 
         main {
             padding: 20px;
