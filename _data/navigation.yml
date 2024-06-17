@@ -10,3 +10,5 @@
   url: "/commands.html"
 - text: "Invite The Bot"
   url: "https://discord.com/oauth2/authorize?client_id=1223029059034943489"
+- text: "Support Server"
+  url: "https://discord.gg/8zY6H8"
