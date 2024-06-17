@@ -67,10 +67,14 @@
     </section>
     
     <nav>
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">&#9776;</label>
+        <ul class="menu">
             {% for link in site.data.navigation %}
-              <a href="{{ link.url }}">{{ link.text }}</a>
+                <li><a href="{{ link.url }}">{{ link.text }}</a></li>
             {% endfor %}
-    </nav> 
+        </ul>
+    </nav>
     <main>
        <!-- <h1>OAuth2 Authorization</h1>
         <p>Click the button below to authorize with Discord:</p>
