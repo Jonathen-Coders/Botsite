@@ -2,9 +2,22 @@
 <html lang="en">
     
 <head>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to The C.B.</title>
+    <!-- MailerLite Universal -->
+<script>
+    (function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[])
+    .push(arguments);},l=d.createElement(e),l.async=1,l.src=u,
+    n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);})
+    (window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');
+    ml('account', '998543');
+</script>
+<!-- End MailerLite Universal -->
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -24,7 +37,15 @@
             padding: 0 20px;
         }
 
-        
+          /* Hide the menu by default */
+          .menu {
+            display: none;
+        }
+
+        /* Show the menu when the checkbox is checked */
+        #menu-toggle:checked ~ .menu {
+            display: block;
+        }
 
         main {
             padding: 20px;
@@ -57,46 +78,59 @@
 <body>
     <header>
         <h1>Welcome to The C.B.</h1>
-        
-    </header>
+   </header>
     <section class="announcement">
-        ---
----
-<h2>Important Announcement</h2>
+        <h2>Important Announcement</h2>
 <h>Hello, fellow bot enthusiasts! 🤖</h>
+<p>
+<b>We are working hard</b>
+We are working hard to make everything work on our bots(yes you read it correctly) We added a modmail bot to our server and our framework and no it is only for our server. Remember that we vaule your opinion! We Added some new Nav Items!
+— 😊The C.B Discord Bot Team</p>
+<button id="dismiss-btn">Dismiss</button>
+<script>
+    var endDateString = "2024-06-20"; // Set your end date
+</script>
+<script src="/js/announcement.js"></script>
 
-<p>We're excited to announce some upcoming changes and improvements to our Discord bot. Here's what you can expect:
-
-<b>New Improvements</b>
-We are actively improving the bot and eventually we want to make more bots using the same network as C.B.
-
-— The C.B Discord Bot Team</p>
-
-        <button id="dismiss-btn">Dismiss</button>
     </section>
+    
 
-    <script>
-        document.getElementById("dismiss-btn").addEventListener("click", function() {
-            document.querySelector(".announcement").style.display = "none";
-        });
-    </script>
     <nav>
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">&#9776;</label>
+        <ul class="menu">
             
-              <a href="/index.html">Home</a>
+                <li><a href="/index.html">Home</a></li>
             
-              <a href="/enduser">EUlA/Privacy Policy</a>
+                <li><a href="/enduser">EUlA/Privacy Policy</a></li>
             
-              <a href="/features">Features</a>
+                <li><a href="/features.html">Features</a></li>
             
-              <a href="https://discord.com/oauth2/authorize?client_id=1223029059034943489">Invite The Bot</a>
+                <li><a href="/commands.html">Commands</a></li>
             
-    </nav> 
+                <li><a href="https://discord.com/oauth2/authorize?client_id=1223029059034943489">Invite The Bot</a></li>
+            
+                <li><a href="https://discord.gg/a6m3cfEdkn">Support Server</a></li>
+            
+                <li><a href="https://github.com/Jonathen-Coders/Botsite">GitHub for the site</a></li>
+            
+                <li><a href="https://github.com/Jonathen-Coders/The-C.B.">GitHub for the bot</a></li>
+            
+        </ul>
+    </nav>
     <main>
-        <section>    
+       <!-- <h1>OAuth2 Authorization</h1>
+        <p>Click the button below to authorize with Discord:</p>
+        <button onclick="window.location.href='https://discord.com/oauth2/authorize?client_id=1223029059034943489&permissions=8&response_type=code&redirect_uri=https%3A%2F%2Fbot-site.joncodingreviews.com%2F&scope=identify+guilds+bot+applications.commands+applications.commands.permissions.update'">Authorize with Discord</button> -->
+         <section>    
     <h1>Welcome to The C.B. Discord Bot</h1>
     <p>The C.B. is a multi-purpose Discord bot designed to enhance your server experience. With a variety of features and customization options, The C.B. is the perfect addition to any Discord community.</p>
+    <p>Click the button below to authorize The C.B. with your Discord server:</p>
+    <button onclick="window.location.href='https://discord.com/oauth2/authorize?client_id=1223029059034943489&permissions=8&response_type=code&redirect_uri=https%3A%2F%2Fbot-site.joncodingreviews.com%2F&scope=identify+guilds+bot+applications.commands+applications.commands.permissions.update'">Authorize with Discord</button>
+    <p>We do apprecate our users! We are currently finding a way to setup our bot on a hosting system but remember that this site is still work in progress</p>
 </section>
 <!-- Add more sections for commands, documentation, etc. -->
+         <div class="ml-embedded" data-form="aZQb9M"></div>
     </main>
 
     <footer>
