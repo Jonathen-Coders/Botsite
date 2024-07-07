@@ -1,11 +1,11 @@
 <h2>Important Announcement</h2>
-<h>Hello, fellow bot enthusiasts! 🤖</h>
+<h>Maintenance</h>
 <p>
 <b>We are working hard</b>
-We are working hard to make everything work on our bots(yes you read it correctly) We added a modmail bot to our server and our framework and no it is only for our server. Remember that we vaule your opinion! We Added some new Nav Items!
+We are working hard to make everything work on the site so starting <b>Today in a few hours and ending Sunday July 7th,2024</b> our site will be down for backend work this means you would be unable to view anything with the site inculding but not limiting to our Privacy policy inviting the bot to the servers and other features!
 — 😊The C.B Discord Bot Team</p>
 <button id="dismiss-btn">Dismiss</button>
 <script>
-    var endDateString = "2024-06-20"; // Set your end date
+    var endDateString = "2024-07-07"; // Set your end date
 </script>
 <script src="/js/announcement.js"></script>
