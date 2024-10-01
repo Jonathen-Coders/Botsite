@@ -6,6 +6,6 @@ We got the bot running on a new system and currently trying to fix a few command
 — 😊The C.B Discord Bot Team! New Site alert <a href="https://www.joncodingreviews.com">Main site</a></p>
 <button id="dismiss-btn">Dismiss</button>
 <script>
-    var endDateString = "2024-30-09"; // Set your end date
+    var endDateString = "2024-09-30"; // Set your end date
 </script>
 <script src="/js/announcement.js"></script>
