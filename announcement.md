@@ -12,10 +12,5 @@ Happy Holidays as the year wraps closer to the end. We want to thank you for sta
 <script>
     var endDateString = "2024-12-31"; // Set your end date
 </script>
-<script src="/js/announcement.js"></script>
-— 😊The C.B Discord Bot Team! New Site alert <a href="https://www.joncodingreviews.com">Main site</a></p>
-<button id="dismiss-btn">Dismiss</button>
-<script>
-    var endDateString = "2024-09-30"; // Set your end date
-</script>
-<script src="/js/announcement.js"></script>
+<script src="/js/announcement.js"></script><!-- nothing follows-->
+
