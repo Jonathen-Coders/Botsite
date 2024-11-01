@@ -2,8 +2,8 @@
 # Example navigation.yml
 - text: "Home"
   url: "/index.html"
-- text: "About"
-  url: "/about.md"
+- text: "About Us"
+  url: "/about.html"
 - text: "EUlA/Privacy Policy"
   url: "/enduser"
 - text: "Features"
